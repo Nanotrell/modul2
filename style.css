@@ -5,13 +5,16 @@ header {
 	height: 113px;
 	background-color: #0A0A0A;
 }
-nav {
-	width: 100%;
-	height: 100%;
+.container-all {
+	min-width: 300px;
+	max-width: 1200px;
+	margin: 0 auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	height: 113px;
 }
+
 .navigation-group {
 	display: flex;
 	justify-content: space-between;
@@ -21,7 +24,7 @@ nav {
 	background-image: url(images/логотип.png);
 	width: 39.06px;
 	height: 47.76px;
-	justify-self: center;
+	margin-right: 137px;
 }
 .nav-text {
 	color: #717171;
