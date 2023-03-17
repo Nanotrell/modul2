@@ -219,7 +219,7 @@ input {
 }
 .button-2:hover {
 	filter: brightness(85%);
-	transition-duration: 0.7s;
+	transition-duration: 0.8s;
 }
 footer {
 	background-color: #0A0A0A;
