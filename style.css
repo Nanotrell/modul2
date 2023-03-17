@@ -105,14 +105,8 @@ h2 {
 	width: 350px;
 	height: 370px;
 }
-/* .section-2-3 {
-	align-items: center;
-	justify-content: space-around;
-	padding-bottom: 63px;
-} */
 .section-2-3, .section-4 {
 	width: 100%;
-	display: flex;
 	background-color: #FFFFFF;
 }
 .section-4 {
