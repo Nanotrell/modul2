@@ -117,6 +117,10 @@ h1 {
 .button-1 a {
 	color: #FFFFFF;
 }
+.button-1:hover {
+	filter: brightness(85%);
+	transition-duration: 0.8s;
+}
 /* СЕКЦИЯ 2 */
 .group-2 {
 	width: 560px;
