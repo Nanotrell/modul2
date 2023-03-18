@@ -1,26 +1,59 @@
+/* ОБЩИЕ СТИЛИ */
 body {
 	margin: 0;
 	background-color: #F5F5F7;
+	font-family: "Inter";
 }
+p {
+	margin: 0;
+}
+h2 {
+	width: 100%;
+	font-size: 32px;
+	color: #717171;
+	font-weight: 700;
+	text-align: center;
+	/* background-color: #FFFFFF; */
+	padding-top: 87px;
+	padding-bottom: 50px;
+	margin: 0;
+}
+.section-2-3 {
+	padding-bottom: 63px;
+}
+.container-content {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+.container-all {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.text-14 {
+	font-size: 14px;
+	font-weight: 400;
+}
+.text-20 {
+	font-size: 20px;
+	font-weight: 700;
+}
+/* ШАПКА И ПОДВАЛ */
 header {
 	height: 113px;
 	background-color: #0A0A0A;
 }
+footer {
+	background-color: #0A0A0A;
+}
+a:hover {
+	color: #FFFFFF;
+	transition-duration: 0.6s;
+}
 a {
 	text-decoration: none;
-} 
-.container-all {
-	width: 1200px;
-	margin: 0 auto;
-}
-.container-all-2-3 {
-	width: 1200px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-bottom: 63px;
-	margin: 0 auto;
-	gap: 80px;
 }
 .foot {
 	height: 150px;
@@ -44,14 +77,16 @@ nav {
 	height: 47.76px;
 	margin-right: 137px;
 }
-.text {
-	font-family: "Inter";
+.logo:hover {
+	filter: brightness(230%);
+	transition-duration: 0.6s;
 }
 .nav-text {
 	color: #717171;
 	font-size: 24px;
 	font-weight: 400;
 }
+/* СЕКЦИЯ 1 */
 .section-1 {
 	flex-direction: column;
 	display: flex;
@@ -82,22 +117,13 @@ h1 {
 .button-1 a {
 	color: #FFFFFF;
 }
-h2 {
-	width: 100%;
-	font-size: 32px;
-	color: #717171;
-	font-weight: 700;
-	text-align: center;
-	background-color: #FFFFFF;
-	padding-top: 87px;
-	padding-bottom: 50px;
-	margin: 0;
-}
+/* СЕКЦИЯ 2 */
 .group-2 {
 	width: 560px;
 	flex-wrap: wrap;
 	display: flex;
 	flex-direction: column;
+	gap: 30px;
 }
 .image-2 {
 	background-image: url(images/фото2.png);
@@ -105,30 +131,11 @@ h2 {
 	width: 350px;
 	height: 370px;
 }
-.section-2-3, .section-4 {
-	width: 100%;
-	background-color: #FFFFFF;
-}
-.section-4 {
-	justify-content: center;
-	padding-top: 87px;
-}
-.text-14 {
-	font-size: 14px;
-	font-weight: 400;
-}
-.text-20 {
-	font-size: 20px;
-	font-weight: 700;
-	margin-top: 10px;
-}
+/* СЕКЦИЯ 3 */
 .img-color-1, .img-color-2, .img-color-3, .img-color-4 {
 	width: 240px;
 	height: 320px;
 	border-radius: 30px;
-}
-.img-color-1 {
-	background-image: url(images/серебристый.png);
 }
 .img-color-1:hover {
 	transform: scale(1.1);
@@ -146,6 +153,9 @@ h2 {
 	transform: scale(1.1);
 	transition: transform 0.5s;
 }
+.img-color-1 {
+	background-image: url(images/серебристый.png);
+}
 .img-color-2 {
 	background-image: url(images/фиолетовый.png);
 }
@@ -160,6 +170,10 @@ h2 {
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
+}
+/* СЕКЦИЯ 4 */
+.section-4 {
+	padding-top: 87px;
 }
 .img-3, form {
 	width: 600px;
@@ -214,7 +228,4 @@ input {
 .button-2:hover {
 	filter: brightness(85%);
 	transition-duration: 0.8s;
-}
-footer {
-	background-color: #0A0A0A;
 }
