@@ -97,8 +97,10 @@ nav {
 }
 h1 {
 	color: #490E84;
-	font-size: 64px;
+	font-style: normal;
 	font-weight: 700;
+	font-size: 64px;
+	line-height: 77px;
 }
 .image-1 {
 	background-image: url(images/фото1.png);
